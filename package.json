@@ -1,0 +1,22 @@
+{
+	"name": "aiignment_server",
+	"author": "Abubeker",
+	"web": "myportofolio.yenetask.com",
+	"email": "abubeker0934@gmail.com",
+	"description": "this is assignment",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"dependencies": {
+		"axios": "^0.26.0",
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^6.2.4",
+		"multer": "^1.4.5-lts.1",
+		"nodemon": "^2.0.20"
+	}
+}
